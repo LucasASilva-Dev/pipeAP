@@ -1,13 +1,13 @@
 # Function: var_phase.R
 # License: GPLv3 or later
-# Modification date: 12 Mar 2021
+# Modification date: 11 May 2021
 # Written by: Yuri Tani Utsunomiya
 # Contact: ytutsunomiya@gmail.com
 # Description: phase variant data
 # Usage: Rscript var_phase.R [bedfile] [autonum] [outfile] [ncores]
 
 # Programs ----------------------------------------------------------------------------------------
-plink <- "/usr/bin/plink_v1.90b5.4"
+plink <- "/usr/bin/plink1.9"
 eagle <- "/usr/bin/eagle"
 tabix <- "/usr/bin/tabix"
 
